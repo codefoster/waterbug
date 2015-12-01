@@ -1,8 +1,8 @@
-### node ###
+### node e ###
 # Logs
 logs
 *.log
-
+# anther comment
 # Runtime data
 pids
 *.pid
