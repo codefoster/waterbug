@@ -1,6 +1,9 @@
 [submodule "waterbug-device"]
 	path = waterbug-device
 	url = https://github.com/codefoster/waterbug-device.git
-[submodule "waterbug-site"]
-	path = waterbug-site
-	url = https://github.com/codefoster/waterbug-site.git
+[submodule "waterbug-client"]
+	path = waterbug-client
+	url = http://github.com/codefoster/waterbug-client
+[submodule "waterbug-server"]
+	path = waterbug-server
+	url = http://github.com/codefoster/waterbug-server
