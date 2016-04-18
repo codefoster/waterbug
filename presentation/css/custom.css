@@ -1,0 +1,19 @@
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  box-shadow: none; }
+
+.profiles {
+    display:flex;
+    flex-direction: column;
+}
+
+.profiles > div {
+    display:flex;
+}
+
+.profiles > div p {
+    text-align:left;
+    margin-left:20px;
+}
