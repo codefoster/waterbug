@@ -2,7 +2,7 @@
 	path = waterbug-device
 	url = https://github.com/codefoster/waterbug-device.git
 [submodule "waterbug-client"]
-	path = waterbug-client
+	path = waterbug-ui
 	url = http://github.com/codefoster/waterbug-client
 [submodule "waterbug-server"]
 	path = waterbug-server
