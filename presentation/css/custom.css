@@ -1,3 +1,8 @@
+.img-circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
