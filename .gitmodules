@@ -7,3 +7,6 @@
 [submodule "waterbug-server"]
 	path = waterbug-server
 	url = http://github.com/codefoster/waterbug-server
+[submodule "waterbug-presentation"]
+	path = waterbug-presentation
+	url = https://github.com/codefoster/waterbug-presentation
