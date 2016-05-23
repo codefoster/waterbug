@@ -1,0 +1,215 @@
+/*-- Simple CSS Reset -- */
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* -- Body styles -- */
+
+
+body {
+	background-color: #f0f1f3;
+	color:#667073;
+	font: 16px/1.3 'Arial',sans-serif;
+}
+
+
+/* -- Header styles -- */
+
+
+.homebanner {
+	display: none;
+	height: 80px;
+	background-color: #3c4446;
+}
+
+.homebannertext {
+	text-align: center;
+	padding-top: 22px;
+	font-family: 'Open Sans Condensed',serif;
+	font-weight: bold;
+	color: white;
+}
+
+.homebannertext span {
+	color: #d6441b;
+}
+
+#logo {
+	text-decoration: none;
+	color:white !important;
+}
+
+/* -- Slide styles -- */
+
+.slides section{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* -- Form styles -- */
+
+
+form.login {
+	position: fixed;
+	top: 50%;
+	max-height: 140px;
+	max-width: 390px;
+	width: 100%;
+	left: 50%;
+	margin: -70px 0 0 -195px;
+	text-align: center;
+	z-index: 2;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 60px 0 0;
+}
+
+form.login span {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+form.login input[type=text] {
+	position: relative;
+	left: -5px;
+	width: 160px;
+	height: 29px;
+	padding: 0 10px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	background-color: rgba(255,255,255, 0.8);
+	border: 1px solid #C5C5C5;
+	border-radius: 2px;
+	margin-top: 26px;
+}
+
+form.login input[type=text].denied {
+	border: 1px solid red;
+	outline: none;
+}
+
+form.login input[type=text].animation {
+	transition: 0.1s;
+	-webkit-animation-name: shakeMe;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-delay: 0s;
+	animation-name: shakeMe;
+	animation-duration: 0.6s;
+	animation-delay: 0s;
+}
+
+form.login input[type=text]::-webkit-input-placeholder {
+	color: #ABABAB;
+}
+
+form.login input[type=submit] {
+	position: relative;
+	left: 5px;
+	height: 29px;
+	width: 40px;
+	line-height: 29px;
+	text-align: center;
+	padding: 0 10px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border: none;
+	border-radius: 2px;
+	background-color: rgba(90, 147, 187, 0.69);
+	color: #fff;
+}
+
+
+@-webkit-keyframes shakeMe {
+	0%   { left: -10px; }
+	15%  { left: 5px; }
+	30%   { left: -10px; }
+	45%  { left: 5px; }
+	60%   { left: -10px; }
+	75%  { left: 5px; }
+	90%   { left: -10px; }
+	100%  { left: 5px; }
+}
+
+@-moz-keyframes shakeMe {
+	0%   { left: -10px; }
+	15%  { left: 5px; }
+	30%   { left: -10px; }
+	45%  { left: 5px; }
+	60%   { left: -10px; }
+	75%  { left: 5px; }
+	90%   { left: -10px; }
+	100%  { left: 5px; }
+}
+
+@-o-keyframes shakeMe {
+	0%   { left: -10px; }
+	15%  { left: 5px; }
+	30%   { left: -10px; }
+	45%  { left: 5px; }
+	60%   { left: -10px; }
+	75%  { left: 5px; }
+	90%   { left: -10px; }
+	100%  { left: 5px; }
+}
+
+@keyframes shakeMe {
+	0%   { left: -10px; }
+	15%  { left: 5px; }
+	30%   { left: -10px; }
+	45%  { left: 5px; }
+	60%   { left: -10px; }
+	75%  { left: 5px; }
+	90%   { left: -10px; }
+	100%  { left: 5px; }
+}
+
+@media(max-width: 500px){
+	form.login {
+		max-height: 120px;
+		max-width: 300px;
+		margin: -60px 0 0 -150px;
+		padding: 40px 0 0;
+	}
+}
+
+/* -- Blur effect -- */
+
+
+.homebanner.blurred, div.reveal.blurred {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+	pointer-events: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.homebanner, div.reveal {
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+
+/* -- Demo ads -- */
+
+
+@media (max-width: 1024px) {
+    #bsaHolder{ display:none;}
+}
+
+
+/* -- Link to Tutorialzine -- */
+
+
+.tz-link{
+	text-decoration: none;
+	color: #fff !important;
+	font: bold 36px Arial,Helvetica,sans-serif !important;
+}
+
+.tz-link span{
+	color: #da431c;
+}
